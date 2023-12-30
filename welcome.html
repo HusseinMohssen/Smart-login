@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/welcome.css">
+</head>
+<body onload="displayWelocme()">
+    <nav class="navbar navbar-expand-lg m-5">
+        <div class="container">
+          <a class="navbar-brand" href="#">SMART LOGIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a onclick="logOut()" class="btn btn-outline-info my-3" href="index.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="home container my-5 text-center w-75 d-flex justify-content-center align-items-center align-content-center">
+        
+        <div class="main m-auto w-75 p-5">
+            
+            <h1 id="userName"></h1>
+
+            
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/welcome.js"></script>
+</body>
+</html>
